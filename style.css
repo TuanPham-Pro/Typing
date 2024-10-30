@@ -15,10 +15,10 @@ z-index: -1;
 
 @font-face {
   font-family: myFirstFont;
-  src: url(EncodeSans-ExtraBold.ttf);
+  src: url(Veneer-Two.ttf);
 }
 body {
-    padding-top: 300px;
+    padding-top: 400px;
 
   font-family: myFirstFont,sans-serif;
   background-size: 100px 100px;
@@ -94,14 +94,14 @@ a:hover {
 .game__score {
   position: absolute;
   top: 400px;
-  left: 40px;
-  font-size: 1.5rem;
+  left: 40px;background-color: white;
+  font-size: 3rem;
 }
 .game__timer {
   position: absolute;
-  top: 400px;
+  top: 400px;background-color: white;
   right: 40px;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .game__words {
   position: absolute;
@@ -109,6 +109,7 @@ a:hover {
   left: 0;
   width: 100%;
   text-align: center;
+  
 }
 .game__words p {
   font-size: 3rem;
@@ -124,7 +125,7 @@ a:hover {
 .game-letter {
   letter-spacing: 5px;
   font-size: 15rem;
-  font-weight: 700;
+
 }
 .game-letter[data-correct=true] {
   color: #171787;
@@ -134,7 +135,7 @@ a:hover {
 }
 @media screen and (min-width: 768px) {
   .game-letter {
-    font-size: 6rem;
+    font-size: 8rem;
   }
 }
 
@@ -144,10 +145,10 @@ p {
 }
 
 .button {
-  background: transparent;
-  border: 2px solid #FFFCF9;
+
+ 
   border-radius: 4px;
-  color: #FFFCF9;
+  
   text-transform: uppercase;
   font-size: 2rem;
   padding: 8px 20px;
